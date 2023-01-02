@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <nav className="flex justify-center p-5 font-bold mb-5 h-16 bg-lime-300 fixed top-0 left-0 right-0">
+    <nav className="flex justify-center p-5 font-bold mb-5 h-16 bg-lime-300 fixed top-0 left-0 right-0 z-10">
       <NavLink
         to="/"
         className={({ isActive }) =>
